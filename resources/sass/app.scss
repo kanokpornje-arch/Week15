@@ -1,0 +1,114 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    background:
+        radial-gradient(circle at top right, rgba(222, 202, 245, 0.55), transparent 30rem),
+        $body-bg;
+    min-height: 100vh;
+}
+
+.pastel-navbar {
+    background: linear-gradient(110deg, #eee4f8, #decaf2) !important;
+    border-bottom: 1px solid #d2bae9;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #51396c !important;
+    font-weight: 600;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #8057a5 !important;
+}
+
+.navbar-toggler {
+    border-color: #bda0d8;
+}
+
+main .container {
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid #eadff4;
+    border-radius: 1.1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(101, 69, 133, 0.08);
+    padding: 1.75rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #6d4a91;
+}
+
+.btn-primary {
+    --bs-btn-bg: #a78bca;
+    --bs-btn-border-color: #a78bca;
+    --bs-btn-hover-bg: #8d6bb3;
+    --bs-btn-hover-border-color: #8d6bb3;
+    --bs-btn-active-bg: #805fa5;
+    --bs-btn-active-border-color: #805fa5;
+}
+
+.btn-warning {
+    --bs-btn-color: #212529;
+    --bs-btn-bg: #ffc107;
+    --bs-btn-border-color: #ffc107;
+    --bs-btn-hover-color: #212529;
+    --bs-btn-hover-bg: #e0a800;
+    --bs-btn-hover-border-color: #e0a800;
+}
+
+.btn-danger {
+    --bs-btn-bg: #dc3545;
+    --bs-btn-border-color: #dc3545;
+    --bs-btn-hover-bg: #bb2d3b;
+    --bs-btn-hover-border-color: #bb2d3b;
+}
+
+.form-control,
+.form-select {
+    border-color: #dac8ea;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #af90cf;
+    box-shadow: 0 0 0 0.25rem rgba(175, 144, 207, 0.22);
+}
+
+.table {
+    --bs-table-striped-bg: #faf5ff;
+    border-color: #e4d7ef;
+}
+
+.table thead th {
+    background-color: #eadcf5;
+    color: #5d3e7d;
+}
+
+.card {
+    border-color: #e4d7ef;
+    box-shadow: 0 0.5rem 1.5rem rgba(101, 69, 133, 0.08);
+}
+
+.card-header {
+    background-color: #eee4f8;
+    color: #5d3e7d;
+    border-bottom-color: #e4d7ef;
+}
+
+.page-link {
+    color: #76509b;
+    border-color: #decdec;
+}
+
+.page-item.active .page-link {
+    background-color: #a78bca;
+    border-color: #a78bca;
+}
